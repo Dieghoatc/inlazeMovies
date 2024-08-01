@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "pnpm run --parallel dev",
     "co": "sui-mono commit",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,5 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "@s-ui/mono": "^2.45.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
   }
 }
