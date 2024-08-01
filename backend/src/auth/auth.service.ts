@@ -44,6 +44,7 @@ export class AuthService {
       user: findtoUsertoDB,
       token,
     };
+
     return dataUser;
   }
 }

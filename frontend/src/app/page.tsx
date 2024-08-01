@@ -1,9 +1,10 @@
-import { LoginPage } from "./pages/page";
+import { Navbar } from "./components/Navbar/Navbar";
+import styles from "./home.module.css";
 
 export default function Home() {
   return (
     <div>
-      <div>Holandas</div>
+      <Navbar />
     </div>
   );
 }
