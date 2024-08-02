@@ -24,10 +24,10 @@ export function Navbar() {
         </nav>
       </div>
       <div className={styles.user_container}>
-        <div>
+        <div className={styles.mode_logo}>
           <ModeLogo />
         </div>
-        <div>
+        <div className={styles.sign_in_logo}>
           <SignIn />
         </div>
         <div className={styles.hamburger_menu}>

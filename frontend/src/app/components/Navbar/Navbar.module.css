@@ -21,6 +21,7 @@
 }
 
 .logo {
+  cursor: pointer;
   grid-column: 1;
   margin-left: 25px;
 
@@ -51,6 +52,10 @@
   }
 }
 
+.nav li {
+  cursor: pointer;
+}
+
 .user_container {
   margin-right: 25px;
   grid-column: 3;
@@ -63,8 +68,18 @@
   }
 }
 
+.mode_logo {
+  cursor: pointer;
+}
+
+.sign_in_logo {
+  cursor: pointer;
+}
+
 .hamburger_menu {
+  cursor: pointer;
   display: block;
+
   @media (min-width: 1023px) {
     display: none;
   }
