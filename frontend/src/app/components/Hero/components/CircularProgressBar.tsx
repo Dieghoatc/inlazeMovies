@@ -29,7 +29,7 @@ export function CircularProgressBar() {
             stroke="#61C864"
             strokeWidth={5.5}
             strokeDasharray={262}
-            strokeDashoffset={135}
+            strokeDashoffset={261}
             filter="url(#dropshadow)"
           />
         </svg>
