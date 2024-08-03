@@ -1,6 +1,6 @@
 import { User } from "../types";
 
-export const singIn = async (user: User): Promise<[Error?, User?]> => {
+export const loginService = async (user: User): Promise<[Error?, User?]> => {
   const { email, password } = user;
 
   try {

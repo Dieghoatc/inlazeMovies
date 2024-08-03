@@ -1,0 +1,18 @@
+.categories {
+  margin-top: 20px;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.select {
+  background-color: #1c1c1c;
+  margin-top: 16px;
+  height: 40px;
+}
+
+.option {
+  padding: 20px;
+}

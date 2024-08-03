@@ -14,7 +14,7 @@
     <circle cx="56" cy="35.5" r="1" fill="#F0B90B" />
     <defs>
         <filter id="a" x="0" y="33.5" width="35" height="5" filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB">
+            color-interpolation-filters=""="sRGB">
             <feFlood flood-opacity="0" result="BackgroundImageFix" />
             <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
             <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />

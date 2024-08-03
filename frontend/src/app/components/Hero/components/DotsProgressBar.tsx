@@ -1,4 +1,4 @@
-import styles from "./DotsProgressBar.module.css";
+import styles from "./dotsProgressBar.module.css";
 
 interface Dots {
   name: string;

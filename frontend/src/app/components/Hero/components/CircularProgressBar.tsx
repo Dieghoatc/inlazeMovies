@@ -1,4 +1,4 @@
-import styles from "./CircularProgressBar.module.css";
+import styles from "./circularProgressBar.module.css";
 
 export function CircularProgressBar() {
   return (
@@ -10,7 +10,7 @@ export function CircularProgressBar() {
               <feGaussianBlur in="SourceAlpha" stdDeviation="1" />
               <feOffset dx="2" dy="2" result="offsetblur" />
               <feOffset dx="-2" dy="-2" result="offsetblur" />
-              <feFlood flood-color="#4f9" />
+              <feFlood floodColor="#4f9" />
               <feComposite in2="offsetblur" operator="in" />
               <feMerge>
                 <feMergeNode />

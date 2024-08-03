@@ -1,0 +1,32 @@
+.search_container {
+  position: relative;
+}
+.search_container label {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.search_container input::placeholder {
+  font-size: 12px;
+  color: #f6f6f6;
+}
+
+.input {
+  background-color: #1c1c1c;
+  padding-left: 18px;
+  padding-right: 40px;
+  border-radius: 5px 5px 0px 0px;
+  border-bottom: 1px solid #717171;
+  margin-top: 16px;
+  width: 228px;
+  height: 46px;
+}
+.button {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.button::after {
+  content: url("../../../../../assets/Search.svg");
+}

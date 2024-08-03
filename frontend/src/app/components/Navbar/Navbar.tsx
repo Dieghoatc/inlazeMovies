@@ -1,4 +1,4 @@
-import styles from "./Navbar.module.css";
+import styles from "./navbar.module.css";
 import { Logo } from "./Logo";
 import { SignIn } from "./SignInLogo";
 import { ModeLogo } from "./ModeLogo";
