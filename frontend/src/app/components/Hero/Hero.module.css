@@ -17,7 +17,7 @@
 }
 .hero_information {
   position: absolute;
-  bottom: 220px;
+  bottom: 0;
   width: 100%;
   z-index: 3;
   padding: 24px;
@@ -32,75 +32,29 @@
 
 .hero_information h2 {
   cursor: pointer;
+  font-size: 33px;
   font-weight: 700;
-  font-size: 35px;
 }
 .hero_information h3 {
   font-weight: 700;
-  @media (min-width: 1024px) {
-    font-size: 20px;
+}
+
+@media (min-width: 336px) {
+  .hero_information h2 {
+    font-size: 35px;
   }
 }
 
 .hero_details {
-  background-color: black;
-  width: 100%;
-  height: auto;
-  display: grid;
-  align-items: center;
-
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 1fr);
-
-  @media (min-width: 1024px) {
-    display: flex;
-    justify-content: space-around;
-  }
-}
-
-.hero_menu {
-  grid-row: 2;
-  margin: 24px 76px;
-}
-
-.hero_menu ul {
-  display: flex;
-  gap: 30px;
-
-  @media (min-width: 768px) {
-    gap: 70px;
-    justify-content: space-around;
-  }
-}
-.hero_menu li {
-  cursor: pointer;
-}
-
-.dots_progress_bar {
-  grid-row: 1;
-  justify-self: center;
-}
-
-.user_selectors {
-  display: flex;
-  justify-content: center;
-  gap: 70px;
-  grid-row: 3;
-}
-
-.favorite_logo {
-  cursor: pointer;
-}
-.saved_logo {
-  cursor: pointer;
-}
-
-.share_logo {
-  cursor: pointer;
 }
 
 .circle_progress_bar {
   position: absolute;
-  top: 258px;
-  right: 120px;
+  top: 150px;
+  right: 30px;
+
+  @media (min-width: 768px) {
+    top: 258px;
+    right: 120px;
+  }
 }

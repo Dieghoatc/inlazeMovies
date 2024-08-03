@@ -1,0 +1,56 @@
+.hero_details_container {
+  background-color: black;
+  width: 100%;
+  height: auto;
+  padding: 24px 0px;
+  display: grid;
+  align-items: center;
+  gap: 40px;
+
+  @media (min-width: 1024px) {
+    padding: 24px 60px;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.hero_menu {
+  grid-row: 2;
+  align-self: center;
+}
+
+.hero_menu ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+
+  @media (min-width: 1024px) {
+    gap: 70px;
+  }
+}
+.hero_menu li {
+  cursor: pointer;
+}
+
+.dots_progress_bar {
+  grid-row: 1;
+  justify-self: center;
+}
+
+.user_selectors {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  grid-row: 3;
+}
+
+.favorite_logo {
+  cursor: pointer;
+}
+.saved_logo {
+  cursor: pointer;
+}
+
+.share_logo {
+  cursor: pointer;
+}
