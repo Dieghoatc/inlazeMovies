@@ -7,7 +7,7 @@ import { HeroDetails } from "./components/HeroDetails";
 export function Hero() {
   return (
     <div className={styles.hero_container}>
-      <div className={styles.hero_container}>
+      <div className={styles.hero_image_container}>
         <img className={styles.hero_image} src={Po.src} alt="Po" />
         <div className={styles.hero_information}>
           <h2>Kung Fu Panda 4</h2>

@@ -1,8 +1,12 @@
 .hero_container {
+  position: relative;
+  background-color: black;
+}
+
+.hero_image_container {
+  position: relative;
   width: 100%;
   height: 436px;
-  background-color: black;
-  position: relative;
 }
 
 .hero_container img {
@@ -45,16 +49,21 @@
   }
 }
 
-.hero_details {
-}
-
 .circle_progress_bar {
   position: absolute;
-  top: 150px;
-  right: 30px;
+  bottom: 380px;
+  right: 15px;
 
-  @media (min-width: 768px) {
-    top: 258px;
-    right: 120px;
+  @media (min-width: 1024px) {
+    bottom: 86px;
+    right: 135px;
+  }
+
+  @media (min-width: 1440px) {
+    bottom: 86px;
+    right: 208px;
+  }
+  @media (min-width: 1920px) {
+    right: 288px;
   }
 }
