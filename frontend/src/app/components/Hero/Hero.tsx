@@ -1,8 +1,8 @@
 import styles from "./Hero.module.css";
 import Po from "../../assets/images/Po.jpg";
 
-import { CircularProgressBar } from "./components/CircularProgressBar";
 import { HeroDetails } from "./components/HeroDetails";
+import { CircularProgressBar } from "../CirclularProgressBar/CircularProgressBar";
 
 export function Hero() {
   return (

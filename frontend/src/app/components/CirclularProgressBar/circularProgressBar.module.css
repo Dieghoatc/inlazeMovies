@@ -1,0 +1,44 @@
+.circle_container {
+  position: relative;
+  width: 97px;
+  height: 97px;
+  border-radius: 50%;
+}
+.circle_svg {
+  position: relative;
+  z-index: 3;
+}
+.circle_outer {
+  position: absolute;
+  top: 7px;
+  right: 9px;
+  background: transparent;
+  border: 5px solid #265127;
+  border-radius: 50%;
+  width: 81px;
+  height: 81px;
+  z-index: 1;
+}
+
+.circle {
+  box-shadow: 0 0 2px #4f9;
+  animation: animation 2s linear forwards;
+}
+
+@keyframes animation {
+  100% {
+    stroke-dashoffset: 80;
+  }
+}
+
+.percent {
+  position: absolute;
+  bottom: 28px;
+  right: 17px;
+  color: #fff;
+}
+
+.percent {
+  font-weight: 700;
+  font-size: 28px;
+}

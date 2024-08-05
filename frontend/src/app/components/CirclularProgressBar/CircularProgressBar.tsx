@@ -35,8 +35,8 @@ export function CircularProgressBar() {
         </svg>
       </div>
       <div className={styles.circle_outer}></div>
-      <span className={styles.percent}>
-        <p>97%</p>
+      <span>
+        <p className={styles.percent}>97%</p>
       </span>
     </div>
   );

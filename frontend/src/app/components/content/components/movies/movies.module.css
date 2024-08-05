@@ -1,0 +1,16 @@
+.movies_wrapper {
+  padding: 24px 0 0 24px;
+}
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.movies_list {
+  white-space: nowrap;
+}
+
+.movie_card {
+  display: inline-block;
+}

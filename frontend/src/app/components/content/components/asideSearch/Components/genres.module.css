@@ -1,4 +1,4 @@
-.categories {
+.genres {
   margin-top: 20px;
 }
 
@@ -7,7 +7,11 @@
   font-weight: 700;
 }
 
-.categories select {
+.option_placeholder {
+  border-bottom: 2px solid #fff;
+}
+
+.genres select {
   background-color: #1c1c1c;
   appearance: none;
   -webkit-appearance: none;
@@ -21,11 +25,6 @@
 
 .select {
   background: url("../../../../../assets/arrow_down.svg") no-repeat right center;
-}
-
-.option_placeholder {
-  font-size: 14px;
-  font-weight: 700;
 }
 
 .select option {

@@ -5,7 +5,12 @@
   height: 100%;
 }
 
+.aside_wrapper {
+  background-color: #262626;
+  overflow-x: hidden;
+}
 
-.sections_wrapper {
+.movies_wrapper {
   background-color: #454545;
+  overflow-x: hidden;
 }

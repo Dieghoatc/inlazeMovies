@@ -1,4 +1,5 @@
 import { AsideSearch } from "./components/asideSearch/AsideSearch";
+import { Movies } from "./components/movies/Movies";
 import styles from "./content.module.css";
 
 export function Content() {
@@ -7,8 +8,8 @@ export function Content() {
       <div className={styles.aside_wrapper}>
         <AsideSearch />
       </div>
-      <div className={styles.sections_wrapper}>
-        <p>Popular</p>
+      <div className={styles.movies_wrapper}>
+        <Movies />
       </div>
     </div>
   );
